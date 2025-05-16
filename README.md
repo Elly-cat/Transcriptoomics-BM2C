@@ -4,6 +4,7 @@
 </p>
 
 
+![Logo](assets/rheuma_en_geen_rheuma.jpg](https://github.com/Elly-cat/Transcriptoomics-BM2C/blob/elly-shenanigens/assets/rheuma%20en%20geen%20rheuma.jpg)
 
 inleding___
 
