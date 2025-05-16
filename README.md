@@ -1,6 +1,7 @@
 # Transcriptoomics-BM2C
-![logo](assets/rheuma_en_geen_rheuma.jpg)
-
+<p align="center">
+  <img src="assets/rheuma_en_geen_rheuma.jpg" alt="Werk" width="600"/>
+</p>
 
 
 
