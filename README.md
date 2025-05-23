@@ -11,4 +11,4 @@ Om te achterhalen welke genen en pathways betrokken zijn bij Reumatoïde artriti
 <p align="left">
   <img src="asset/flowchart_transcriptie.jpg" alt="process van data verwerking" width="600"/>
 </p>
-Figuur 1: flowschema van de dataverwerking in R.
+*Figuur 1: flowschema van de dataverwerking in R.*
