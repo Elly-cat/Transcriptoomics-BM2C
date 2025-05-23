@@ -10,5 +10,5 @@ Reumatoïde artritis (RA) is een systematische auto-immunziekte dat voornamelijk
 Om te achterhalen welke genen en pathways betrokken zijn bij Reumatoïde artritis werd samples genomen van de synovium van 4 patienten met RA en 4 patienten zonder RA en met behulp van geanalyseerd.
 <p align="center">
   <img src="asset/flowchart_transcriptie.jpg" alt="process van data verwerking" width="600"/>
-   <figcaption>Figuur 1: Dit is het bijschrift van de afbeelding.</figcaption>
 </p>
+Figuur 1: flowschema van de dataverwerking in R.
