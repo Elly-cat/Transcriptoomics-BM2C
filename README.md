@@ -18,4 +18,8 @@ Om te achterhalen welke genen en pathways betrokken zijn bij Reumatoïde artriti
 De data van de RNA sequenties werden verkregen uit monsters genomen van het synovium van 4 patiënten met RA en 4 patiënten zonder RA. Patienten met rheuma waren bevestigd dat die autoantistoffen hebben tegen CCP. Hieronder een overzicht van de [monsters](data/metadata_rheuma.csv).
 
 ### H2.2 Mappen van data en countmatrix
-Met RSUBread werd de humaan genoom GRCh38.p14 (file) en de monster reads (file) gemapt. Zodat het align-programma weet waar in het genoom de reads passen van de monsters. Hieruit kwamen bam files die samen met
+Met RSUBread werd de humaan genoom GRCh38.p14 van ENSEMBL (file) en de monster reads (file) gemapt. Zodat het align-programma weet waar in het genoom de reads passen van de monsters. Uit de align functie kwamen bam files die samen met Homo_sapiens gtf file van ENSEMBL tot een countmatrix werd gemaakt met behulp van RSUBread. In de countmatrix staat hoeveel reads in op de gen voorkwam bij de controle en rheuma monsters.
+
+## H2.3 Statestiek
+
+
