@@ -22,3 +22,6 @@ Met RSUBread werd de humaan genoom [GRCh38.p14](https://ftp.ensembl.org/pub/rele
 
 ### H2.3 Statestiek
 Vanaf dit punt werd de vollidig human genoom [countmatrix](data/count_matrix.txt) verkregen. Met de treatmentable waarin staat of de monster controle of rheuma is en countmatrix werd de DESeqDataSet object gemaakt met behulp van DESeq2, waarin de DESeqDataSet in staat de foldchange, p-value en multiple testing correction voor de normaliseerde genen. Met DESeqDataSet werd een volcano plot gemaakt waarin de foldchange werd uitgezet tegen de significantie. Verder werd met de DESeqDataSet een KEGG pathway-analyse gedaan, GO enrichment en Gene set testing tutorial gedaan.
+
+## H3 Resultaten
+
