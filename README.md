@@ -27,4 +27,4 @@ Vanaf dit punt werd de vollidig human genoom [countmatrix](data/count_matrix.txt
 Om te zien welke genen en pathways betrokken zijn werd er een PCA plot, volcano plot, GO-enrichment en Gene set testing.
 
 ### H3.1 De gen expressie tussen groepen verschilt
-Om te zien of de gen expressie verschilt van rheuma en controle samples werd een PCA plot uitgevoerd (fig. 2). 
+Om te zien of de gen expressie verschilt van rheuma en controle samples werd een PCA plot uitgevoerd (fig. 2). Wat werd bevestigd met PERMANOVA (P = 0.036, 999 permutaties). 
