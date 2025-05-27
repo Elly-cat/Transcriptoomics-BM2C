@@ -20,7 +20,7 @@ De data van de RNA sequenties werden verkregen uit monsters genomen van het syno
 ### H2.2 Mappen van data en countmatrix
 Met RSUBread (versie 2.20.0) (Liao et al., 2019) werd de humaan genoom [GRCh38.p14](https://ftp.ensembl.org/pub/release-114/fasta/homo_sapiens/dna/Homo_sapiens.GRCh38.dna.toplevel.fa.gz) van ENSEMBL en de [monster reads](data/Data_RA_raw) gemapt. Zodat het align-programma weet waar in het genoom de reads passen van de monsters. Uit de align functie kwamen bam files die samen met [Homo_sapiens gtf](https://ftp.ensembl.org/pub/release-114/gtf/homo_sapiens/Homo_sapiens.GRCh38.114.gtf.gz) file van ENSEMBL tot een countmatrix werd gemaakt met behulp van RSUBread. In de countmatrix staat hoeveel reads in de gen voorkwam bij de controle en rheuma monsters.
 
-### H2.3 Statestiek
+### H2.3 Statistiek
 Vanaf dit punt werd de vollidig human genoom [countmatrix](data/count_matrix.txt) verkregen. Met de treatmentable waarin staat of de monster controle of rheuma is en countmatrix werd de DESeqDataSet object gemaakt met behulp van DESeq2 (versie 1.46.0) (Love et al., 2014), waarin de DESeqDataSet in staat de foldchange, p-value en multiple testing correction (benjamin hochwald) voor de normaliseerde genen. Met DESeqDataSet werd een volcano plot gemaakt waarin de foldchange werd uitgezet tegen de significantie. Verder werd met de DESeqDataSet een KEGG pathway-analyse gedaan, GO enrichment en Gene set testing gedaan.
 
 ## H3 Resultaten
