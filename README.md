@@ -9,7 +9,7 @@ Reumatoïde artritis (RA) is een systematische auto-immunziekte dat voornamelijk
 ## H2 Methode
 Om te achterhalen welke genen en pathways betrokken zijn bij Reumatoïde artritis werd met behulp van geanalyseerd (fig. 1).
 <p align="left">
-  <img src="asset/flowchart_transcriptie.jpg" alt="process van data verwerking" width="600"/>
+  <img src="asset/flowschema_analyse.jpg" alt="process van data verwerking" width="600"/>
 </p>
 
 *Figuur 1: flowschema van de dataverwerking in R.*
