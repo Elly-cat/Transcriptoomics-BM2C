@@ -10,7 +10,7 @@ Reumatoïde artritis (RA) is een systematische auto-immunziekte dat voornamelijk
 ## H2 Methode
 Om te achterhalen welke genen en pathways betrokken zijn bij Reumatoïde artritis werd met behulp van geanalyseerd (fig. 1).
 <p align="left">
-  <img src="asset/flowschema_analyse.jpg" alt="process van data verwerking" width="600"/>
+  <img src="asset/flowschema_analyse.jpg" alt="process van data verwerking" width="600" height="500"/>
 </p>
 
 *Figuur 1: flowschema van de dataverwerking in R.*
@@ -31,7 +31,7 @@ Om te zien welke genen en pathways betrokken zijn werd er een PCA plot, volcano 
 ### H3.1 De genexpressie tussen groepen verschilt
 Om te onderzoeken of de genexpressie verschilde tussen- reuma en controle samples, werd een PCA-plot uitgevoerd (fig. 2). hieruit bleek dat de samples goed van elkaar clusteren. Dat ook bevestigd is met een PERMANOVA op basis van de euclidisch afstand (P = 0.026, 999 permutaties). 
 <p align="left">
-  <img src="resultaten/Rplot_PCA_plot2.jpeg" alt="PCA plot van samples" width="600"/>
+  <img src="resultaten/Rplot_PCA_plot2.jpeg" alt="PCA plot van samples" width="500"/>
 </p>
 
 *Figuur 2 Verschil in genexpressie tussen reuma- en controle samples. Euclidisch afstand bepaald met PCA methode, tussen reuma- en controle samples. (reuma , N=4), (controle , N=4)*
@@ -39,7 +39,7 @@ Om te onderzoeken of de genexpressie verschilde tussen- reuma en controle sample
 ## H3.2 Meerdere genen zijn significant in expressie
 Om een beeld te krijgen welke genen upregulated of downregulted in expressie zijn , werd een volcano plot gemaakt. Uit de volcano plot beek dat 2085 genen significant upregulted zijn bij reuma en 2487 genen significant downregulated zijn. Een opvallend upregulated gen is SRGN met log2Foldchange van 3.26256 en p-waarde van 4.36 x 10^29.
 <p align="left">
-  <img src="resultaten/Volcanoplot.png" alt="volcano plot" width="500" height="500"/>
+  <img src="resultaten/Volcanoplot.png" alt="volcano plot" width="500" height="400"/>
 </p>
 
 *Figuur 3: Volcanoplot van differentiele gene-expressie (DE) bij reuma (N=4) en controle (N=4). De significantie is tot -log10 geplot tegen de log2 van de foldchange. Grijze punten geven genen aan zonder significant verschil in expressie tussen reuma en de controle, groen geeft aan genen die alleen voldoen aan log2FoldChange bij reuma of controle en rood geeft genen aan die zowel aan p-waarde en log2FoldChange voldoen bij reuma of controle.*
