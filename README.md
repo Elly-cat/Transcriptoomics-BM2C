@@ -39,7 +39,7 @@ Om te onderzoeken of de genexpressie verschilde tussen- reuma en controle sample
 ## H3.2 Meerdere genen zijn significant in expressie
 Om een beeld te krijgen welke genen upregulated of downregulted in expressie zijn , werd een volcano plot gemaakt. Uit de volcano plot beek dat 2085 genen significant upregulted zijn bij reuma en 2487 genen significant downregulated zijn. Een opvallend upregulated gen is SRGN met log2Foldchange van 3.26256 en p-waarde van 4.36 x 10^29.
 <p align="left">
-  <img src="resultaten/Volcanoplot.png" alt="volcano plot" width="600" height="400"/>
+  <img src="resultaten/Volcanoplot.png" alt="volcano plot" width="500" height="500"/>
 </p>
 
 *Figuur 3: Volcanoplot van differentiele gene-expressie (DE) bij reuma (N=4) en controle (N=4). De significantie is tot -log10 geplot tegen de log2 van de foldchange. Grijze punten geven genen aan zonder significant verschil in expressie tussen reuma en de controle, groen geeft aan genen die alleen voldoen aan log2FoldChange bij reuma of controle en rood geeft genen aan die zowel aan p-waarde en log2FoldChange voldoen bij reuma of controle.*
