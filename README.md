@@ -27,7 +27,7 @@ Vanaf dit punt werd de vollidig human genoom [countmatrix](data/count_matrix.txt
 Om te zien welke genen en pathways betrokken zijn werd er een PCA plot, volcano plot, GO-enrichment en Gene set testing.
 
 ### H3.1 De gen expressie tussen groepen verschilt
-Om te onderzoeken of de genexpressie verschilde tussen- reuma en controle samples, werd een PCA-plot uitgevoerd (fig. 2). hieruit bleek dat de samples goed van elkaar clusteren. Dat ook bevestigd is met een PERMANOVA op basis van de Bray-Curtis-afstand (P = 0.036, 999 permutaties). 
-(pic, run again)
+Om te onderzoeken of de genexpressie verschilde tussen- reuma en controle samples, werd een PCA-plot uitgevoerd (fig. 2). hieruit bleek dat de samples goed van elkaar clusteren. Dat ook bevestigd is met een PERMANOVA op basis van de euclidisch afstand (P = 0.026, 999 permutaties). 
 
-*Figuur 3 Verschil in genexpressie tussen reuma- en controle samples. Bray-Curtis afstand bepaald met NMDS methode, tussen mixgroep en controlegroep. (mixD5 , N=5), (ctrD5 , N=5)*
+
+*Figuur 3 Verschil in genexpressie tussen reuma- en controle samples. Euclidisch afstand bepaald met PCA methode, tussen reuma- en controle samples. (reuma , N=4), (controle , N=4)*
