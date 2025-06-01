@@ -33,7 +33,7 @@ Om te zien welke genen en pathways betrokken zijn werd er een PCA plot, volcano 
 ### H3.1 De genexpressie tussen groepen verschilt
 Om te onderzoeken of de genexpressie verschilde tussen- reuma en controle samples, werd een PCA-plot uitgevoerd (fig. 2). hieruit bleek dat de samples goed van elkaar clusteren. Dat ook bevestigd is met een PERMANOVA op basis van de euclidisch afstand (P = 0.026, 999 permutaties). 
 <p align="left">
-  <img src="resultaten/Rplot_wombo_combo.jpeg" alt="PCA plot van samples en heatmap" width="710"/>
+  <img src="resultaten/Rplot_Wombo_Combo.jpeg" alt="PCA plot van samples en heatmap" width="710"/>
 </p>
 
 *Figuur 2 Verschil in genexpressie tussen reuma- en controle samples. Euclidisch afstand bepaald met PCA methode, tussen reuma- en controle samples. (reuma , N=4), (controle , N=4)*
