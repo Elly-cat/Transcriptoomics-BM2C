@@ -3,6 +3,7 @@
   <img src="asset/rheuma.jpg" alt="hoe rheuma eruit ziet" width="600"/>
 </p>
 Door: ELisabeth Cezner
+
 klas:BML2-C
 
 ## H1 Inleiding
@@ -31,12 +32,12 @@ Vanaf dit punt werd de vollidig human genoom [countmatrix](data/count_matrix.txt
 Om te zien welke genen en pathways betrokken zijn werd er een PCA plot, volcano plot, GO-enrichment en Gene set testing.
 
 ### H3.1 De genexpressie tussen groepen verschilt
-Om te onderzoeken of de genexpressie verschilde tussen- reuma en controle samples, werd een PCA-plot uitgevoerd (fig. 2). hieruit bleek dat de samples goed van elkaar clusteren. Dat ook bevestigd is met een PERMANOVA op basis van de euclidisch afstand (P = 0.026, 999 permutaties). 
+Om te onderzoeken of de genexpressie verschilde tussen- reuma en controle samples, werd een PCA-plot uitgevoerd (fig. 2A). hieruit bleek dat de samples goed van elkaar clusteren. Dat ook bevestigd is met een PERMANOVA op basis van de euclidisch afstand (P = 0.026, 999 permutaties). Om te onderzoeken welke genen deze scheiding aansturen, werd een heatmap gemaakt van de top 20 DE gebrachte genen (Fig. 2B).
 <p align="left">
   <img src="resultaten/Rplot_Wombo_Combo.jpeg" alt="PCA plot van samples en heatmap" width="710"/>
 </p>
 
-*Figuur 2 Verschil in genexpressie tussen reuma- en controle samples. Euclidisch afstand bepaald met PCA methode, tussen reuma- en controle samples. (reuma , N=4), (controle , N=4)*
+*Figuur 2 (A) Verschil in genexpressie tussen reuma- en controle samples. Euclidisch afstand bepaald met PCA methode, tussen reuma- en controle samples. (reuma , N=4), (controle , N=4). (B) De Heatmap laat zien 30 genen die differentieel in expressie zijn.*
 
 ### H3.2 Meerdere genen zijn significant in expressie
 Om een beeld te krijgen welke genen upregulated of downregulted in expressie zijn , werd een volcano plot gemaakt. Uit de volcano plot beek dat 2085 genen significant upregulted zijn bij reuma en 2487 genen significant downregulated zijn. Een opvallend upregulated gen is SRGN met log2Foldchange van 3.26256 en p-waarde van 4.36 x 10^29 (fig. 3).
