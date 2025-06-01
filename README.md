@@ -40,7 +40,7 @@ Om te onderzoeken of de genexpressie verschilde tussen- reuma en controle sample
 *Figuur 2 (A) Verschil in genexpressie tussen reuma- en controle samples. Euclidisch afstand bepaald met PCA methode, tussen reuma- en controle samples. (reuma , N=4), (controle , N=4). (B) De Heatmap laat zien 30 genen die differentieel in expressie zijn.*
 
 ### H3.2 Meerdere genen zijn significant in expressie
-Om een beeld te krijgen welke genen upregulated of downregulted in expressie zijn , werd een volcano plot gemaakt. Uit de volcano plot beek dat 2085 genen significant upregulted zijn bij reuma en 2487 genen significant downregulated zijn. Een opvallend upregulated gen is SRGN met log2Foldchange van 3.26256 en p-waarde van 4.36 x 10^29 (fig. 3).
+Om een beeld te krijgen welke genen opgereguleerd of neergereguleerd in expressie zijn , werd een volcano plot gemaakt. Uit de volcano plot beek dat 2085 genen significant opgereguleerd zijn bij reuma en 2487 genen significant neergereguleerd zijn. Een opvallend opgereguleerd gen is SRGN met log2Foldchange van 3.26256 en p-waarde van 4.36 x 10^29 (fig. 3).
 <p align="left">
   <img src="resultaten/Volcanoplot.png" alt="volcano plot" width="500" height="400"/>
 </p>
@@ -55,7 +55,7 @@ Om te onderzoeken welke pathways betrokken zijn bij reuma, werd gene set enrichm
 
 *Figuur 4: [Hallmark pathway enrichment analyse](resultaten/pathway_enrichment_Hallamrk.csv) van RA op-en neergeruguleerde pathways (19 pathways significant van totaal 50 pathways).*
 
-Daarnaast werden op- en neergereguleerde genen geïdentificeerd om precieser te zien welke pathways betrokken zijn. In GO-BP upgereguleerd domineert adaptive immune respons en bij neergereguleerd elcetrochemical radiant (fig 5A, D). In GO-CC upgereguleerd domineert immunoglobin complex en bij neergeruguleerd keratin filament (fig 5B, E). In GO-MF upgereguleerd antigen binding en bij neergereguleerd transmembrane transporter activity (fig 5C, F).
+Daarnaast werden op- en neergereguleerde genen geïdentificeerd om precieser te zien welke pathways betrokken zijn. In GO-BP opgereguleerd domineert adaptive immune respons en bij neergereguleerd elcetrochemical radiant (fig 5A, D). In GO-CC opgereguleerd domineert immunoglobin complex en bij neergeruguleerd keratin filament (fig 5B, E). In GO-MF opgereguleerd antigen binding en bij neergereguleerd transmembrane transporter activity (fig 5C, F).
 <p float="left">
   <img src="resultaten/Rplot_3_paths_Up2.png" width="45%" />
   <img src="resultaten/Rplot_3_Paths_Down22.png" width="45%" />
@@ -63,4 +63,4 @@ Daarnaast werden op- en neergereguleerde genen geïdentificeerd om precieser te 
 
 *Figuur 5: Verrijkingsanalyse voor opgereguleerde [BP](pathway_enrichment_BP.csv), [CC](pathway_enrichment_CC.csv) en [MF](pathway_enrichment_MF.csv) pathways (A, B, C) en neergereguleerde pathways van BP, CC en MF (D, E, F).*
 
-
+## Conclusie
