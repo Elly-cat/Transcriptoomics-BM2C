@@ -54,3 +54,17 @@ Om te onderzoeken welke pathways betrokken zijn bij reuma, werd gene set enrichm
 </p>
 
 *Figuur 4: Hallmark pathway enrichment analyse van RA op-en neergeruguleerde pathways (19 pathways significant van totaal 50 pathways).*
+
+
+<p float="left">
+  <img src="resultaten/Rplot_3_paths_Up2.jpeg" width="30%" />
+  <img src="resultaten/Rplot_3_paths_down.jpeg" width="45%" />
+</p>
+
+<table>
+  <tr>
+    <td><img src="resultaten/Rplot_3_paths_Up2.jpeg" width="300"/></td>
+    <td><img src="resultaten/Rplot_3_paths_down.jpeg" width="300"/></td>
+  </tr>
+</table>
+
