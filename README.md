@@ -50,5 +50,6 @@ Om een beeld te krijgen welke genen upregulated of downregulted in expressie zij
 ### H3.2 Meerdere biologische processen zijn betrokken
 Om te onderzoeken welke pathways betrokken zijn bij reuma, werd gene set enrichment gebruikt. De Hallmark-database gaf een breed scala aan biologische processe. Er werd een significante aantal genen gevonden in de myogenese, allograft rejection, inflamontairy respons en interferon alpha repsons(fig. 4).
 <p align="left">
-  <img src="resultaten/Rplot_hallmark_gene_set.png" alt="volcano plot" width="500"/>
+  <img src="resultaten/Rplot_hallmark_gene_set.jpg" alt="volcano plot" width="500"/>
 </p>
+
