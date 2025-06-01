@@ -48,20 +48,19 @@ Om een beeld te krijgen welke genen upregulated of downregulted in expressie zij
 *Figuur 3: Volcanoplot van differentiele gene-expressie (DE) bij reuma (N=4) en controle (N=4). De significantie is tot -log10 geplot tegen de log2 van de foldchange. Grijze punten geven genen aan zonder significant verschil in expressie tussen reuma en de controle, groen geeft aan genen die alleen voldoen aan log2FoldChange bij reuma of controle en rood geeft genen aan die zowel aan p-waarde en log2FoldChange voldoen bij reuma of controle.*
 
 ### H3.2 Meerdere biologische processen zijn betrokken
-Om te onderzoeken welke pathways betrokken zijn bij reuma, werd gene set enrichment gebruikt. De Hallmark-database gaf een breed scala aan biologische processe. Er werd een significante aantal genen gevonden in de myogenese, allograft rejection, inflamontairy respons en interferon alpha repsons (fig. 4).
+Om te onderzoeken welke pathways betrokken zijn bij reuma, werd gene set enrichment gebruikt. De Hallmark-database gaf een breed scala aan biologische processe. Er werd een significante aantal genen gevonden in de myogenese, allograft rejection en interferon alpha repsons (fig. 4).
 <p align="left">
   <img src="resultaten/Rplot_hallmark_gene_set.jpeg" alt="hallmark plot pathways" width="500" height="320"/>
 </p>
 
 *Figuur 4: [Hallmark pathway enrichment analyse](resultaten/pathway_enrichment_Hallamrk.csv) van RA op-en neergeruguleerde pathways (19 pathways significant van totaal 50 pathways).*
 
-Daarnaast werden op- en neergereguleerde genen geïdentificeerd om precieser te zien welke pathways betrokken zijn. In GO-BP up regulated
-
-
+Daarnaast werden op- en neergereguleerde genen geïdentificeerd om precieser te zien welke pathways betrokken zijn. In GO-BP upgereguleerd domineert adaptive immune respons en bij neergereguleerd elcetrochemical radiant (fig 5A, D).In GO-CC upgereguleerd domineert immunoglobin complex en bij neergeruguleerd keratin filament (fig 5B, E). In GO-MF upgereguleerd antigen binding en bij neergereguleerd transmembrane transporter activity (fig 5C, F).
 <p float="left">
   <img src="resultaten/Rplot_3_paths_Up2.png" width="45%" />
   <img src="resultaten/Rplot_3_Paths_Down22.png" width="45%" />
 </p>
 
+*Figuur 5: Verrijkingsanalyse voor opgereguleerde BP, CC en MF pathways (A, B, C) en neergereguleerde pathways van BP, CC en MF (D, E, F).*
 
 
