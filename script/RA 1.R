@@ -125,6 +125,7 @@ library(ggplot2)
 library(grid)
 library(patchwork)
 library(gridGraphics)
+library(AnnotationDbi)
 
 #PCA plot
 #Eerst moeten we de ruwe telgegevens transformeren
