@@ -60,7 +60,7 @@ Daarnaast werden op- en neergereguleerde genen geïdentificeerd om precieser te 
 
 <p float="left">
   <img src="resultaten/Rplot_3_paths_Up2.png" width="45%" />
-  <img src="resultaten/Rplot_3_paths_down.png" width="45%" />
+  <img src="resultaten/Rplot_3_Paths_Down22.png" width="45%" />
 </p>
 
 
