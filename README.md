@@ -47,5 +47,8 @@ Om een beeld te krijgen welke genen upregulated of downregulted in expressie zij
 
 *Figuur 3: Volcanoplot van differentiele gene-expressie (DE) bij reuma (N=4) en controle (N=4). De significantie is tot -log10 geplot tegen de log2 van de foldchange. Grijze punten geven genen aan zonder significant verschil in expressie tussen reuma en de controle, groen geeft aan genen die alleen voldoen aan log2FoldChange bij reuma of controle en rood geeft genen aan die zowel aan p-waarde en log2FoldChange voldoen bij reuma of controle.*
 
-### H3.2 ... molcuul is het meest betrokken
-L
+### H3.2 Meerdere biologische processen zijn betrokken
+Om te onderzoeken welke pathways betrokken zijn bij reuma, werd gene set enrichment gebruikt. De Hallmark-database gaf een breed scala aan biologische processe. Er werd een significante aantal genen gevonden in de myogenese, allograft rejection, inflamontairy respons en interferon alpha repsons(fig. 4).
+<p align="left">
+  <img src="resultaten/Rplot_hallmark_gene_set.png" alt="volcano plot" width="500"/>
+</p>
