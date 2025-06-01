@@ -53,7 +53,9 @@ Om te onderzoeken welke pathways betrokken zijn bij reuma, werd gene set enrichm
   <img src="resultaten/Rplot_hallmark_gene_set.jpeg" alt="hallmark plot pathways" width="500" height="320"/>
 </p>
 
-*Figuur 4: Hallmark pathway enrichment analyse van RA op-en neergeruguleerde pathways (19 pathways significant van totaal 50 pathways).*
+*Figuur 4: [Hallmark pathway enrichment analyse](resultaten/pathway_enrichment_Hallamrk.csv) van RA op-en neergeruguleerde pathways (19 pathways significant van totaal 50 pathways).*
+
+Daarnaast werden op- en neergereguleerde genen geïdentificeerd om precieser te zien welke pathways betrokken zijn. In GO-BP up regulated
 
 
 <p float="left">
