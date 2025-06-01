@@ -57,14 +57,9 @@ Om te onderzoeken welke pathways betrokken zijn bij reuma, werd gene set enrichm
 
 
 <p float="left">
-  <img src="resultaten/Rplot_3_paths_Up2.jpeg" width="30%" />
-  <img src="resultaten/Rplot_3_paths_down.jpeg" width="45%" />
+  <img src="resultaten/Rplot_3_paths_Up2.png" width="45%" />
+  <img src="resultaten/Rplot_3_paths_down.png" width="45%" />
 </p>
 
-<table>
-  <tr>
-    <td><img src="resultaten/Rplot_3_paths_Up2.jpeg" width="300"/></td>
-    <td><img src="resultaten/Rplot_3_paths_down.jpeg" width="300"/></td>
-  </tr>
-</table>
+
 
