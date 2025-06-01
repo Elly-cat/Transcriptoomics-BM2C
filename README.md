@@ -61,6 +61,6 @@ Daarnaast werden op- en neergereguleerde genen geïdentificeerd om precieser te 
   <img src="resultaten/Rplot_3_Paths_Down22.png" width="45%" />
 </p>
 
-*Figuur 5: Verrijkingsanalyse voor opgereguleerde BP, CC en MF pathways (A, B, C) en neergereguleerde pathways van BP, CC en MF (D, E, F).*
+*Figuur 5: Verrijkingsanalyse voor opgereguleerde [BP](pathway_enrichment_BP.csv), [CC](pathway_enrichment_CC.csv) en [MF](pathway_enrichment_MF.csv) pathways (A, B, C) en neergereguleerde pathways van BP, CC en MF (D, E, F).*
 
 
