@@ -34,7 +34,7 @@ Om te zien welke genen en pathways betrokken zijn werd er een PCA plot, volcano 
 ### H3.1 De genexpressie tussen groepen verschilt
 Om te onderzoeken of de genexpressie verschilde tussen- reuma en controle samples, werd een PCA-plot uitgevoerd (fig. 2A). hieruit bleek dat de samples goed van elkaar clusteren. Dat ook bevestigd is met een PERMANOVA op basis van de euclidisch afstand (P = 0.026, 999 permutaties). Om te onderzoeken welke genen deze scheiding aansturen, werd een heatmap gemaakt van de top 20 DE gebrachte genen (Fig. 2B).
 <p align="left">
-  <img src="resultaten/Rplot_Wombo_Combo.jpeg" alt="PCA plot van samples en heatmap" width="710"/>
+  <img src="resultaten/plot/Rplot_wombo_combo.jpeg" alt="PCA plot van samples en heatmap" width="710"/>
 </p>
 
 *Figuur 2 (A) Verschil in genexpressie tussen reuma- en controle samples. Euclidisch afstand bepaald met PCA methode, tussen reuma- en controle samples. (reuma , N=4), (controle , N=4). (B) De Heatmap laat zien 30 genen die differentieel in expressie zijn.*
@@ -42,7 +42,7 @@ Om te onderzoeken of de genexpressie verschilde tussen- reuma en controle sample
 ### H3.2 Meerdere genen zijn significant in expressie
 Om een beeld te krijgen welke genen opgereguleerd of neergereguleerd in expressie zijn , werd een volcano plot gemaakt. Uit de volcano plot beek dat 2085 genen significant opgereguleerd zijn bij reuma en 2487 genen significant neergereguleerd zijn. Een opvallend opgereguleerd gen is SRGN met log2Foldchange van 3.26256 en p-waarde van 4.36 x 10^29 (fig. 3).
 <p align="left">
-  <img src="resultaten/Volcanoplot.png" alt="volcano plot" width="500" height="400"/>
+  <img src="resultaten/plot/Volcanoplot.png" alt="volcano plot" width="500" height="400"/>
 </p>
 
 *Figuur 3: Volcanoplot van differentiele gene-expressie (DE) bij reuma (N=4) en controle (N=4). De significantie is tot -log10 geplot tegen de log2 van de foldchange. Grijze punten geven genen aan zonder significant verschil in expressie tussen reuma en de controle, groen geeft aan genen die alleen voldoen aan log2FoldChange bij reuma of controle en rood geeft genen aan die zowel aan p-waarde en log2FoldChange voldoen bij reuma of controle.*
@@ -50,15 +50,15 @@ Om een beeld te krijgen welke genen opgereguleerd of neergereguleerd in expressi
 ### H3.2 Meerdere biologische processen zijn betrokken
 Om te onderzoeken welke pathways betrokken zijn bij reuma, werd gene set enrichment gebruikt. De Hallmark-database gaf een breed scala aan biologische processe. Er werd een significante aantal genen gevonden in de myogenese, allograft rejection en interferon alpha repsons (fig. 4).
 <p align="left">
-  <img src="resultaten/Rplot_hallmark_gene_set.jpeg" alt="hallmark plot pathways" width="500" height="320"/>
+  <img src="resultaten/plot/Rplot_hallmark_gene_set.jpeg" alt="hallmark plot pathways" width="500" height="320"/>
 </p>
 
 *Figuur 4: [Hallmark pathway enrichment analyse](resultaten/pathway_enrichment_Hallamrk.csv) van RA op-en neergeruguleerde pathways (19 pathways significant van totaal 50 pathways)(p = <0.05).*
 
 Daarnaast werden op- en neergereguleerde genen geïdentificeerd om precieser te zien welke pathways betrokken zijn. In GO-BP opgereguleerd domineert adaptive immune respons en bij neergereguleerd elcetrochemical radiant (fig 5A, D). In GO-CC opgereguleerd domineert immunoglobin complex en bij neergeruguleerd keratin filament (fig 5B, E). In GO-MF opgereguleerd antigen binding en bij neergereguleerd transmembrane transporter activity (fig 5C, F).
 <p float="left">
-  <img src="resultaten/Rplot_3_paths_Up2.png" width="45%" />
-  <img src="resultaten/Rplot_3_Paths_Down22.png" width="45%" />
+  <img src="resultaten/plot/Rplot_3_paths_Up2.png" width="45%" />
+  <img src="resultaten/plot/Rplot_3_Paths_Down22.png" width="45%" />
 </p>
 
 *Figuur 5: Top 10 verrijkingsanalyse voor opgereguleerde [BP](pathway_enrichment_BP.csv), [CC](pathway_enrichment_CC.csv) en [MF](pathway_enrichment_MF.csv) pathways (A, B, C) en neergereguleerde pathways van BP, CC en MF (D, E, F)(p = <0.05).*
