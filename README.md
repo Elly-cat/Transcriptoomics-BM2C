@@ -61,7 +61,7 @@ Daarnaast werden op- en neergereguleerde genen geïdentificeerd om precieser te 
   <img src="resultaten/Rplot_3_Paths_Down22.png" width="45%" />
 </p>
 
-*Figuur 5: Verrijkingsanalyse voor opgereguleerde [BP](pathway_enrichment_BP.csv), [CC](pathway_enrichment_CC.csv) en [MF](pathway_enrichment_MF.csv) pathways (A, B, C) en neergereguleerde pathways van BP, CC en MF (D, E, F)(p = <0.05).*
+*Figuur 5: Top 10 verrijkingsanalyse voor opgereguleerde [BP](pathway_enrichment_BP.csv), [CC](pathway_enrichment_CC.csv) en [MF](pathway_enrichment_MF.csv) pathways (A, B, C) en neergereguleerde pathways van BP, CC en MF (D, E, F)(p = <0.05).*
 
 ## Conclusie
 RA is een auto-immunziekte die beinvloed word door zowel genetische en mileau factoren.Een belangrijk factor is een mutatie in de MCH II HLA-DR4 allel dat in 7% na RA patienten zit (Firestein & McInnes, 2017), maar het mogelijk dat nog meer pathways/genen betrokken zijn, met als doel om te achterhalen welke genen en pathways betrokken zijn bij het onstaan van RA.
