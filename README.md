@@ -53,7 +53,7 @@ Om te onderzoeken welke pathways betrokken zijn bij reuma, werd gene set enrichm
   <img src="resultaten/Rplot_hallmark_gene_set.jpeg" alt="hallmark plot pathways" width="500" height="320"/>
 </p>
 
-*Figuur 4: [Hallmark pathway enrichment analyse](resultaten/pathway_enrichment_Hallamrk.csv) van RA op-en neergeruguleerde pathways (19 pathways significant van totaal 50 pathways).*
+*Figuur 4: [Hallmark pathway enrichment analyse](resultaten/pathway_enrichment_Hallamrk.csv) van RA op-en neergeruguleerde pathways (19 pathways significant van totaal 50 pathways)(p = <0.05).*
 
 Daarnaast werden op- en neergereguleerde genen geïdentificeerd om precieser te zien welke pathways betrokken zijn. In GO-BP opgereguleerd domineert adaptive immune respons en bij neergereguleerd elcetrochemical radiant (fig 5A, D). In GO-CC opgereguleerd domineert immunoglobin complex en bij neergeruguleerd keratin filament (fig 5B, E). In GO-MF opgereguleerd antigen binding en bij neergereguleerd transmembrane transporter activity (fig 5C, F).
 <p float="left">
@@ -61,7 +61,7 @@ Daarnaast werden op- en neergereguleerde genen geïdentificeerd om precieser te 
   <img src="resultaten/Rplot_3_Paths_Down22.png" width="45%" />
 </p>
 
-*Figuur 5: Verrijkingsanalyse voor opgereguleerde [BP](pathway_enrichment_BP.csv), [CC](pathway_enrichment_CC.csv) en [MF](pathway_enrichment_MF.csv) pathways (A, B, C) en neergereguleerde pathways van BP, CC en MF (D, E, F).*
+*Figuur 5: Verrijkingsanalyse voor opgereguleerde [BP](pathway_enrichment_BP.csv), [CC](pathway_enrichment_CC.csv) en [MF](pathway_enrichment_MF.csv) pathways (A, B, C) en neergereguleerde pathways van BP, CC en MF (D, E, F)(p = <0.05).*
 
 ## Conclusie
 RA is een auto-immunziekte die beinvloed word door zowel genetische en mileau factoren.Een belangrijk factor is een mutatie in de MCH II HLA-DR4 allel dat in 7% na RA patienten zit (Firestein & McInnes, 2017), maar het mogelijk dat nog meer pathways/genen betrokken zijn, met als doel om te achterhalen welke genen en pathways betrokken zijn bij het onstaan van RA.
