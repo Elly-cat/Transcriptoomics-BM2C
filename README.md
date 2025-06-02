@@ -6,6 +6,20 @@ Door: ELisabeth Cezner
 
 klas:BML2-C
 
+---
+## 📁 Inhoud/structuur
+
+- `data/raw/` – fictionele datasets voor de analyse van spreuk effectiviteit, gevaar en welke spreuken het beste samengaan met verschillende types staf.  
+- `data/processed` - verwerkte datasets gegenereerd met scripts 
+- `scripts/` – scripts om prachtige onzin te genereren
+- `resultaten/` - grafieken en tabellen
+- `bronnen/` - gebruikte bronnen 
+- `README.md` - het document om de tekst hier te genereren
+- `assets/` - overige documenten voor de opmaak van deze pagina
+- `data_stewardship/` - Voor de competentie beheren ga je aantonen dat je projectgegevens kunt beheren met behulp van GitHub. In deze folder kan je hulpvragen terugvinden om je op gang te helpen met de uitleg van data stewardship.
+
+---
+
 ## H1 Inleiding
 Reumatoïde artritis (RA) is een systematische auto-immunziekte dat voornamelijk de gewrichten van voeten en handen aantast en vooral bij vrouwen. Alhoewel de exacte oorzaak Reumatoïde artritis onduidelijk is, is het zeker dat omgevingsfactoren en genetischefactoren van invloed zijn op Reumatoïde artritis (Huang et al., 2021). De meest belangrijkste genitisch risico zit in het  MHC class II HLA-DR4 allel dat op APC voorkomt in 70% van RA patienten zit (Firestein & McInnes, 2017) en bevat een 5 aminzuur sequentie motief dat de "shared epitope" heet (Fu et al., 2018) dat goede binding heeft voor gecitrullineerde eiwitten en presenteren aan CD4 cellen die weer B-cellen activeren en antistoffen maken tegen citrullinated peptide (ACPA)(Smith & Haynes, 2002). Deze gecitruleerde eiwitten worden o.a. gevormd onder invloed van roken, waarbij het enzym PAD1 arginine omzet in citrulline (Firestein & McInnes, 2017). Een voorbeeld van gecitrulleerde eiwit is citrullinated vimentin dat voor komt in de sinovitus, ACPA bind aan de gecitruleerde eiwit wat tot leid een immuncomplex en verdere immuncellen activeert. Wat een kenemerkende symptomen geeft van RA zoals zwelling in de gewricht(Jang, S ., et al, 2022). Er is nog geen medicijn die RA geneest, maar wel medicijnen die de immunsysteem onderdrukt(Jang, S ., et al, 2022). Door de complexiteit van de oorzaken van RA is verder onderzoek naar de betrokken genen noodzakelijk om betere behandelingen te ontwikkelen. Met als doel met behulp van transcriptomics te onderzoeken welke genen en pathways betrokken zijn bij het onstaan van RA.
 
