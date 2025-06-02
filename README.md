@@ -64,8 +64,9 @@ Daarnaast werden op- en neergereguleerde genen geïdentificeerd om precieser te 
 *Figuur 5: Top 10 verrijkingsanalyse voor opgereguleerde [BP](pathway_enrichment_BP.csv), [CC](pathway_enrichment_CC.csv) en [MF](pathway_enrichment_MF.csv) pathways (A, B, C) en neergereguleerde pathways van BP, CC en MF (D, E, F)(p = <0.05).*
 
 ## Conclusie
-RA is een auto-immunziekte die beinvloed word door zowel genetische en mileau factoren.Een belangrijk factor is een mutatie in de MCH II HLA-DR4 allel dat in 7% na RA patienten zit (Firestein & McInnes, 2017), maar het mogelijk dat nog meer pathways/genen betrokken zijn, met als doel om te achterhalen welke genen en pathways betrokken zijn bij het onstaan van RA.
+RA is een auto-immunziekte die beinvloed word door zowel genetische en mileau factoren. Een belangrijk factor is een mutatie in de MCH II HLA-DR4 allel dat in 7% na RA patienten zit (Firestein & McInnes, 2017), maar het mogelijk dat nog meer pathways/genen betrokken zijn, met als doel om te achterhalen welke genen en pathways betrokken zijn bij het onstaan van RA.
 
+Uit de volcano plot kwam de de meest opgereuduleerde gen SRGN in reuma patienten. Dat ook betrokken is bij onstekkingprocessen door reguleren van TNF-a en door activeert NF-κB (Chen et al., 2020), dat zorgt weefselafsterfte en uatoimmunreacties (Liu et al., 2017; D. Jang et al., 2021).
 
 Er moet rekening worden gehouden met enkele beperkingen van dit onderzoek. Ten eerste is meer aantal samples nodig en daarbij ook samples van mannen met en zonder reuma. Om te zien of sex ook andere andere pathways activeert. Ook voor meer biologische diepgang en communicatie tussen cellen kan meer verschillende celtypes worden gesequenced zoals verschillende type immuncellen en epitheel cellen.
 
