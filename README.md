@@ -37,7 +37,7 @@ Om te achterhalen welke genen en pathways betrokken zijn bij Reumatoïde artriti
 De data van de RNA sequenties werden verkregen uit monsters genomen van het synovium van 4 patiënten met RA en 4 patiënten zonder RA. Patienten met reuma waren bevestigd dat die autoantistoffen hebben tegen CCP. Hieronder een overzicht van de [monsters](data/metadata_rheuma.csv).
 
 ### H2.2 Mappen van data en countmatrix
-Met RSUBread (versie 2.20.0) (Liao et al., 2019) werd de humaan genoom [GRCh38.p14](https://ftp.ensembl.org/pub/release-114/fasta/homo_sapiens/dna/Homo_sapiens.GRCh38.dna.toplevel.fa.gz) van ENSEMBL en de [monster reads](data/Data_RA_raw) gemapt. Zodat het align-programma weet waar in het genoom de reads passen van de monsters. Uit de align functie kwamen bam files die samen met [Homo_sapiens gtf](https://ftp.ensembl.org/pub/release-114/gtf/homo_sapiens/Homo_sapiens.GRCh38.114.gtf.gz) file van ENSEMBL tot een countmatrix werd gemaakt met behulp van RSUBread. In de countmatrix staat hoeveel reads in de gen voorkwam bij de controle en reuma monsters.
+Met RSUBread (versie 2.20.0) (Liao et al., 2019) werd de humaan genoom [GRCh38.p14](https://ftp.ensembl.org/pub/release-114/fasta/homo_sapiens/dna/Homo_sapiens.GRCh38.dna.toplevel.fa.gz) van ENSEMBL en de [monster reads](data/Data_RA_raw) gemapt. Uit de align functie kwamen bam files die samen met [Homo_sapiens gtf](https://ftp.ensembl.org/pub/release-114/gtf/homo_sapiens/Homo_sapiens.GRCh38.114.gtf.gz) file van ENSEMBL tot een countmatrix werd gemaakt met behulp van RSUBread.
 
 ### H2.3 Statistiek
 Vanaf dit punt werd de vollidig human genoom [countmatrix](data/count_matrix.txt) verkregen. Met de treatmentable waarin staat of de monster controle of reuma is en countmatrix werd de DESeqDataSet object gemaakt met behulp van DESeq2 (versie 1.46.0) (Love et al., 2014), waarin de DESeqDataSet in staat de foldchange, p-value en multiple testing correction (benjamin hochwald) voor de normaliseerde genen. Met DESeqDataSet werd een volcano plot gemaakt waarin de foldchange werd uitgezet tegen de significantie. Verder werd met de DESeqDataSet een KEGG pathway-analyse gedaan, GO enrichment en Gene set testing gedaan.
@@ -76,13 +76,13 @@ Daarnaast werden op- en neergereguleerde genen geïdentificeerd om precieser te 
   <img src="resultaten/plot/Rplot_3_Paths_Down22.png" width="45%" />
 </p>
 
-*Figuur 5: Top 10 verrijkingsanalyse voor opgereguleerde [BP](pathway_enrichment_BP.csv), [CC](pathway_enrichment_CC.csv) en [MF](pathway_enrichment_MF.csv) pathways (A, B, C) en neergereguleerde pathways van BP, CC en MF (D, E, F)(p = <0.05).*
+*Figuur 5: Top 10 verrijkingsanalyse voor opgereguleerde [BP](resultaten/pathway analyse files/pathway_enrichment_BP.csv), [CC](pathway_enrichment_CC.csv) en [MF](pathway_enrichment_MF.csv) pathways (A, B, C) en neergereguleerde pathways van BP, CC en MF (D, E, F)(p = <0.05).*
 
 ## Conclusie
-RA is een auto-immunziekte die beinvloed word door zowel genetische en mileau factoren. Een belangrijk factor is een mutatie in de MCH II HLA-DR4 allel dat in 7% na RA patienten zit (Firestein & McInnes, 2017), maar het mogelijk dat nog meer pathways/genen betrokken zijn, met als doel om te achterhalen welke genen en pathways betrokken zijn bij het onstaan van RA.
+RA is een auto-immunziekte die beinvloed word door zowel genetische en mileau factoren, maar is het mogelijk dat nog meer pathways/genen betrokken zijn, met als doel om te achterhalen welke genen en pathways betrokken zijn bij het onstaan van RA.
 
 Uit de volcano plot kwam de de meest opgereuduleerde gen SRGN in reuma patienten. Dat ook betrokken is bij onstekkingprocessen door reguleren van TNF-a en door activeert NF-κB (Chen et al., 2020), dat zorgt weefselafsterfte en auto-immunreacties (Liu et al., 2017; D. Jang et al., 2021). Bij hallmark kwam de meest upgerugeerlde pathway allograft rejection dat gedoneerde weefsel afstoot, hoewel er geen weefsel is gedoneer is er wel overlap met ander immunomechanisme. Bij neergeruguleerde pathway myogenisis komt overproductie van myostatin dat voor minder spier groei zorgt (Gonzalez-Ponce et al., 2024).
 
-Er moet rekening worden gehouden met enkele beperkingen van dit onderzoek. Ten eerste is meer aantal samples nodig en daarbij ook samples van mannen met en zonder reuma. Om te zien of sex ook andere andere pathways activeert. Ook voor meer biologische diepgang en communicatie tussen cellen kan meer verschillende celtypes worden gesequenced zoals verschillende type immuncellen en epitheel cellen.
+Er moet rekening worden gehouden met enkele beperkingen van dit onderzoek. Ten eerste is meer aantal samples nodig en daarbij ook samples van mannen met en zonder reuma. Om te zien of sex ook andere andere pathways activeert. Ook voor meer biologische diepgang en communicatie tussen cellen kan meer verschillende celtypes worden gesequenced zoals type immuncellen en epitheel cellen.
 
 Een groot aantal pathways geeft beeld hoe reuma kan onstaan zoalas de immunpathways en MHC binding pathways, maar specifieke chemokine is onbekend wat laat zien waar de immuncellen worden "gelokt".
