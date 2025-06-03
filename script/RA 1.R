@@ -111,7 +111,7 @@ resultaten <- results(dds)
 
 # Resultaten opslaan in een bestand
 #Bij het opslaan van je tabel kan je opnieuw je pad instellen met `setwd()` of het gehele pad waar je de tabel wilt opslaan opgeven in de code.
-write.table(resultaten, file = 'ResultatenWC3.csv', row.names = TRUE, col.names = TRUE)
+write.table(resultaten, file = 'ResultatenGenen.csv', row.names = TRUE, col.names = TRUE)
 
 #---------------------------------PCA plot + anova en heatmap-------------------------------------------
 
