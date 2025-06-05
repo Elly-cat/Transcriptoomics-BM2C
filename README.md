@@ -69,7 +69,7 @@ Om te onderzoeken welke pathways betrokken zijn bij reuma, werd de pathway analy
   <img src="resultaten/plot/Rplot_hallmark_gene_set.jpeg" alt="hallmark plot pathways" width="500" height="320"/>
 </p>
 
-*Figuur 4: [Hallmark pathway enrichment analyse](resultaten/pathway_enrichment_Hallamrk.csv) van RA op-en neergeruguleerde pathways (19 pathways significant van totaal 50 pathways)(q = <0.05)(Benjamin Hochberg).*
+*Figuur 4: [Hallmark pathway enrichment analyse](resultaten/pathway_enrichment_Hallamrk.csv) van RA op-en neergeruguleerde pathways (19 pathways significant van totaal 50 pathways)(q = <0.05)(Benjamini Hochberg).*
 
 Daarnaast werden op- en neergereguleerde genen geïdentificeerd om precieser te zien welke pathways betrokken zijn. In GO-BP opgereguleerd domineert adaptive immune respons en bij neergereguleerd elcetrochemical radiant (fig 5A, D). In GO-CC opgereguleerd domineert immunoglobin complex en bij neergeruguleerd keratin filament (fig 5B, E). In GO-MF opgereguleerd antigen binding en bij neergereguleerd transmembrane transporter activity (fig 5C, F).
 <p float="left">
