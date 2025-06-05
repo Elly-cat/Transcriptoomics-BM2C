@@ -15,6 +15,8 @@ klas:BML2-C
 - `data/` – gebruikte files om de complete dataset te analyseren
 - `data_stewardship/` - uitleg waarom data beheren nuttig is
 - `resultaten/pathway analyse files` - files van de verschillende pathway analyses voor elke proces
+- `resultaten/pathway bam files` - files dat uit de align functie kwam
+- `resultaten/genen analyse files` - file van allerlei genen betrokken
 - `resultaten/plot` - grafieken van de analyses
 - `script/` – scripts de data te verwerken en analyseren
 - `README.md` - het document om de tekst hier te genereren
@@ -36,7 +38,7 @@ Om te achterhalen welke genen en pathways betrokken zijn bij Reumatoïde artriti
 De data van de RNA sequenties werden verkregen uit monsters genomen van het synovium van 4 patiënten met RA en 4 patiënten zonder RA. Patienten met reuma waren bevestigd dat die autoantistoffen hebben tegen CCP. Hieronder een overzicht van de [monsters](data/metadata_rheuma.csv).
 
 ### H2.2 Mappen van data en countmatrix
-Met RSUBread (versie 2.20.0) ([Liao et al., 2019](bronnen/Yang_Liao_2019.pdf)) werd de humaan genoom [GRCh38.p14](https://ftp.ensembl.org/pub/release-114/fasta/homo_sapiens/dna/Homo_sapiens.GRCh38.dna.toplevel.fa.gz) van ENSEMBL en de [monster reads](data/Data_RA_raw) gemapt. Uit de align functie kwamen bam files die samen met [Homo_sapiens gtf](https://ftp.ensembl.org/pub/release-114/gtf/homo_sapiens/Homo_sapiens.GRCh38.114.gtf.gz) file van ENSEMBL tot een countmatrix werd gemaakt met behulp van RSUBread.
+Met RSUBread (versie 2.20.0) ([Liao et al., 2019](bronnen/Yang_Liao_2019.pdf)) werd de humaan genoom [GRCh38.p14](https://ftp.ensembl.org/pub/release-114/fasta/homo_sapiens/dna/Homo_sapiens.GRCh38.dna.toplevel.fa.gz) van ENSEMBL en de [monster reads](data/Data_RA_raw) gemapt. Uit de align functie kwamen [bam files](resultaten/bam%20files) die samen met [Homo_sapiens gtf](https://ftp.ensembl.org/pub/release-114/gtf/homo_sapiens/Homo_sapiens.GRCh38.114.gtf.gz) file van ENSEMBL tot een countmatrix werd gemaakt met behulp van RSUBread.
 
 ### H2.3 Statistiek
 Vanaf dit punt werd de vollidig human genoom [countmatrix](data/count_matrix.txt) verkregen. Met de treatmentable waarin staat of de monster controle of reuma is en countmatrix werd de DESeqDataSet object gemaakt met behulp van DESeq2 (versie 1.46.0) ([Love et al., 2014](bronnen/Micheal_I_love_2014.pdf)), waarin de DESeqDataSet in staat de foldchange, p-value en multiple testing correction (benjamin hochwald) voor de normaliseerde genen. Met DESeqDataSet werd een volcano plot gemaakt waarin de foldchange werd uitgezet tegen de significantie. Verder werd met de DESeqDataSet een KEGG pathway-analyse gedaan, GO enrichment en Gene set testing gedaan.
