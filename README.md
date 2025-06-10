@@ -79,6 +79,13 @@ Daarnaast werden op- en neergereguleerde genen geïdentificeerd om precieser te 
 
 *Figuur 5: Top 10 verrijkingsanalyse voor opgereguleerde [BP](resultaten/pathway%20analyse%20files/pathway_enrichment_BP.csv), [CC](resultaten/pathway%20analyse%20files/pathway_enrichment_CC.csv) en [MF](resultaten/pathway%20analyse%20files/pathway_enrichment_MF.csv) pathways (A, B, C) en neergereguleerde pathways van BP, CC en MF (D, E, F)(p = <0.05).*
 
+Verder werd de go enrichment uitgevoerd om te zien welk processen betrokken zijn, daaruit kwam dat bij BP positieve RNA regulatie domineert, bij MF domineert protein binding en bij CC domineert cytosol (fig 6).
+<p float="left">
+  <img src="resultaten/pathway%20analyse%20files/Rplot_top_3_ontologies.jpeg" width="45%" />
+</p>
+
+*Figuur 6: Top 30 ontologies voor opgereguleerde go enrichment proccesen bij BP, CC en MF (padj = <0.05).*
+
 ## Conclusie
 RA is een auto-immuunziekte die beinvloed word door zowel genetische als omgevingfactoren, maar is het mogelijk dat nog meer pathways/genen betrokken zijn betrokken zijn bij het onstaan van RA, met als doel om te achterhalen welke genen en pathways betrokken zijn bij het onstaan van RA.
 
