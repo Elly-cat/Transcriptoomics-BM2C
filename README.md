@@ -56,7 +56,7 @@ Om te onderzoeken of de genexpressie verschillen tussen- reuma en controle sampl
 *Figuur 2 (A) Verschil in genexpressie tussen reuma- en controle samples. Euclidisch afstand bepaald met PCA methode, tussen reuma- en controle samples. (reuma , N=4), (controle , N=4). (B) De Heatmap laat zien 30 genen die differentieel in expressie zijn.*
 
 ### H3.2 Meerdere genen zijn significant in expressie
-Om een beeld te krijgen welke [genen opgereguleerd of neergereguleerd](resultaten/genen%20analyse%20files/ResultatenGenen.csv) in expressie zijn , werd een volcano plot gemaakt. Uit de volcano plot beek dat 2085 genen significant opgereguleerd waren bij reuma en 2487 genen significant neergereguleerd waren. Een opvallend opgereguleerd gen is SRGN met log2Foldchange van 3.26256 en p-waarde van 4.36 x 10^29 (fig. 3).
+Om een beeld te krijgen welke [genen opgereguleerd of neergereguleerd](resultaten/genen%20analyse%20files/ResultatenGenen.csv) in expressie zijn , werd een volcano plot gemaakt. Uit de volcano plot beek dat 2085 genen significant opgereguleerd waren bij reuma en 2487 genen significant neergereguleerd waren. Een opvallend zeer significant gen is SRGN met log2Foldchange van 3.26256 en p-waarde van 4.36 x 10^29 (fig. 3).
 <p align="left">
   <img src="resultaten/plot/Volcanoplot.png" alt="volcano plot" width="500" height="400"/>
 </p>
