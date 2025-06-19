@@ -41,7 +41,7 @@ De data van de RNA sequenties werden verkregen uit monsters genomen van het syno
 Met RSUBread (versie 2.20.0) ([Liao et al., 2019](bronnen/Yang_Liao_2019.pdf)) werd de humaan genoom [GRCh38.p14](https://ftp.ensembl.org/pub/release-114/fasta/homo_sapiens/dna/Homo_sapiens.GRCh38.dna.toplevel.fa.gz) van ENSEMBL en de [monster reads](data/Data_RA_raw) gemapt. Uit de align functie kwamen [bam files](resultaten/bam%20files) die samen met [Homo_sapiens gtf](https://ftp.ensembl.org/pub/release-114/gtf/homo_sapiens/Homo_sapiens.GRCh38.114.gtf.gz) file van ENSEMBL tot een countmatrix werd gemaakt met behulp van RSUBread.
 
 ### H2.3 Statistiek
-Vanaf dit punt werd de vollidig human genoom [countmatrix](data/count_matrix.txt) verkregen. Met de treatmentable waarin staat of de monster controle of reuma is en countmatrix werd de DESeqDataSet object gemaakt met behulp van DESeq2 (versie 1.46.0) ([Love et al., 2014](bronnen/Micheal_I_love_2014.pdf)), waarin de DESeqDataSet in staat de foldchange, p-value en multiple testing correction (benjamin hochwald) voor de normaliseerde genen. Met DESeqDataSet werd een volcano plot gemaakt waarin de foldchange werd uitgezet tegen de significantie. Verder werd met de DESeqDataSet een KEGG pathway-analyse gedaan, GO enrichment en Gene set testing gedaan.
+Vanaf dit punt werd de volledig human genoom [countmatrix](data/count_matrix.txt) verkregen. Met de treatmentable waarin staat of de monster controle of reuma is en countmatrix werd de DESeqDataSet object gemaakt met behulp van DESeq2 (versie 1.46.0) ([Love et al., 2014](bronnen/Micheal_I_love_2014.pdf)), waarin de DESeqDataSet in staat de foldchange, p-value en multiple testing correction (benjamin hochwald) voor de normaliseerde genen. Met DESeqDataSet werd een volcano plot gemaakt waarin de foldchange werd uitgezet tegen de significantie. Verder werd met de DESeqDataSet een KEGG pathway-analyse gedaan, GO enrichment en Gene set testing gedaan.
 
 
 ## H3 Resultaten
@@ -93,4 +93,4 @@ Uit de volcano plot kwam de de meest opgereuduleerde gen SRGN in reuma patienten
 
 Toch heeft dit onderzoek een paar beperking. Er moet rekening worden gehouden met enkele beperkingen van dit onderzoek. Ten eerste is meer aantal samples nodig en daarbij ook samples van mannen met en zonder reuma. Om te zien of sex ook andere andere pathways activeert. Ook voor meer biologische diepgang en communicatie tussen cellen kan meer verschillende celtypes worden gesequenced zoals type immuncellen en epitheel cellen.
 
-Een groot aantal pathways geeft beeld hoe reuma kan onstaan zoalas de immunpathways en MHC binding pathways, maar specifieke chemokine is onbekend wat laat zien waar de immuncellen worden "gelokt".
+Een groot aantal pathways geeft beeld hoe reuma kan onstaan zoals de immunpathways en MHC binding pathways, maar specifieke chemokine is onbekend wat laat zien waar de immuncellen worden "gelokt".
