@@ -32,7 +32,7 @@ Om te achterhalen welke genen en pathways betrokken zijn bij Reumatoïde artriti
   <img src="asset/flowschema_analyse.jpg" alt="process van data verwerking" width="800" height="400"/>
 </p>
 
-*Figuur 1: flowschema van de dataverwerking in R.*
+*Figuur 1: flowschema van de dataverwerking in R. Gemaakt in biorender*
 
 ### H2.1 Verkregen data
 De data van de RNA sequenties werden verkregen uit monsters genomen van het synovium van 4 patiënten met RA en 4 patiënten zonder RA. Patienten met reuma waren bevestigd dat die autoantistoffen hebben tegen CCP. Hieronder een overzicht van de [monsters](data/metadata_rheuma.csv).
