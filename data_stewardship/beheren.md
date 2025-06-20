@@ -12,7 +12,7 @@ Data stewardship is nodig zodat experimenten betrouwbaar, reproduceer en transpa
 
 ├── resultaten/
 
-└── documenten/
+└── scripts/
 
 Ook helpt het om de files de juiste naam te geven waarbij een duidelijke naam te geven wat voor info het bevat en een versie van de bestand. Scripts met code erin moet bij elke functie een comment toevoegen wat de functie doet.
 
