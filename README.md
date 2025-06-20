@@ -6,6 +6,8 @@ Door: ELisabeth Cezner
 
 klas:BML2-C
 
+image source: https://lamenteesmaravillosa.com/artritis-reumatoide-sintomas-causas-y-tratamiento/
+
 ---
 ## Inhoud/[structuur](data_stewardship/github.md)
 
