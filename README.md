@@ -11,9 +11,9 @@ klas:BML2-C
 
 - `assets/` - overige documenten voor de opmaak van deze pagina
 - `bronnen/` – gebruike wetenschappelijke bronnen voor introductie en discussie
+- `data/` – gebruikte files om de complete dataset te analyseren
 - `data/Data_RA_raw/` – monster reads van patienten met en zonder reuma
 - `data/processed bam files` - files dat uit de align functie kwam
-- `data/` – gebruikte files om de complete dataset te analyseren
 - `data_stewardship/` - uitleg waarom data beheren nuttig is
 - `resultaten/pathway analyse files` - files van de verschillende pathway analyses voor elke proces
 - `resultaten/genen analyse files` - file van allerlei genen betrokken
