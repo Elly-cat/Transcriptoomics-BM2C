@@ -35,13 +35,13 @@ Om te achterhalen welke genen en pathways betrokken zijn bij Reumatoïde artriti
 *Figuur 1: flowschema van de dataverwerking in R. Gemaakt in biorender*
 
 ### H2.1 Verkregen data
-De data van de RNA sequenties werden verkregen uit monsters genomen van het synovium van 4 patiënten met RA en 4 patiënten zonder RA. Patienten met reuma waren bevestigd dat die autoantistoffen hebben tegen CCP. Hieronder een overzicht van de [monsters](data/metadata_rheuma.csv).
+De data van de RNA sequenties werden verkregen uit monsters genomen van het synovium van 4 patiënten met RA  (diagnose >12 maanden) en 4 patiënten zonder RA, waar de RNA werd omgezet tot cDNA en werd de library gesequenced  met illumina. Patienten met reuma waren bevestigd dat die autoantistoffen hebben tegen CCP. Hieronder een overzicht van de [monsters](data/metadata_rheuma.csv).
 
 ### H2.2 Mappen van data en countmatrix
 Met RSUBread (versie 2.20.0) ([Liao et al., 2019](bronnen/Yang_Liao_2019.pdf)) werd de humaan genoom [GRCh38.p14](https://ftp.ensembl.org/pub/release-114/fasta/homo_sapiens/dna/Homo_sapiens.GRCh38.dna.toplevel.fa.gz) van ENSEMBL en de [monster reads](data/Data_RA_raw) gemapt. Uit de align functie kwamen [bam files](data/processed%20bam%20files) die samen met [Homo_sapiens gtf](https://ftp.ensembl.org/pub/release-114/gtf/homo_sapiens/Homo_sapiens.GRCh38.114.gtf.gz) file van ENSEMBL tot een countmatrix werd gemaakt met behulp van RSUBread.
 
 ### H2.3 Statistiek
-Vanaf dit punt werd de volledig human genoom [countmatrix](data/count_matrix.txt) verkregen. Met de treatmentable waarin staat of de monster controle of reuma is en countmatrix werd de DESeqDataSet object gemaakt met behulp van DESeq2 (versie 1.46.0) ([Love et al., 2014](bronnen/Micheal_I_love_2014.pdf)), waarin de DESeqDataSet in staat de foldchange, p-value en multiple testing correction (benjamin hochwald) voor de normaliseerde genen. Met DESeqDataSet werd een volcano plot gemaakt waarin de foldchange werd uitgezet tegen de significantie. Verder werd met de DESeqDataSet een KEGG pathway-analyse gedaan, GO enrichment met behulp van goseq (versie 1.60.0) en Gene set testing gedaan met behulp van msigdbr (version 24.1.0).
+Vanaf dit punt werd de volledig human genoom [countmatrix](data/count_matrix.txt) verkregen. Met de treatmentable waarin staat of de monster controle of reuma is en countmatrix werd de DESeqDataSet object gemaakt met behulp van DESeq2 (versie 1.46.0) ([Love et al., 2014](bronnen/Micheal_I_love_2014.pdf)), waarin de DESeqDataSet in staat de foldchange, p-value en multiple testing correction (benjamin hochwald) voor de normaliseerde genen. Met DESeqDataSet werd een volcano plot gemaakt waarin de foldchange werd uitgezet tegen de significantie. Verder werd met de DESeqDataSet een KEGG pathway-analyse gedaan met KEGGREST (versie 1.48.0), GO enrichment met behulp van goseq (versie 1.60.0) en Gene set testing gedaan met behulp van msigdbr (version 24.1.0).
 
 
 ## H3 Resultaten
@@ -86,11 +86,11 @@ Verder werd de go enrichment uitgevoerd om te zien welk processen betrokken zijn
 
 *Figuur 6: Top 30 ontologies voor opgereguleerde go enrichment proccesen bij BP, CC en MF (padj = <0.05).*
 
-## Conclusie
+## Discussie, aanbeveling en conclusie
 RA is een auto-immuunziekte die beinvloed word door zowel genetische als omgevingfactoren, maar is het mogelijk dat nog meer pathways/genen betrokken zijn betrokken zijn bij het onstaan van RA, met als doel om te achterhalen welke genen en pathways betrokken zijn bij het onstaan van RA.
 
 Uit de volcano plot kwam de de meest significante gen SRGN in reuma patienten voorkomt. SRGN is betrokken bij ontstekingsprocessen doordat het de productie van TNF-α reguleert en het NF-κB-pathway activeert ([Chen et al., 2020](bronnen/Yueying%20Chen_2020.pdf)), dat zorgt voor weefselafsterfte en auto-immunreacties ([Liu et al., 2017](bronnen/Ting_Liu_2017.pdf); [D. Jang et al., 2021](bronnen/Dan-in_Jang_2021.pdf)). Bij de hallmark-analyse kwam de meest upgerugeerlde pathway allograft rejection dat gedoneerde weefsel afstoot, hoewel er geen weefsel is gedoneert is er wel overlap met ander immunomechanismes. De meest neergeruguleerde pathway was myogenisis (spieraanmaak). Deze verstoring zou verband kunnen houden met overproductie van myostatine, een remmer van spiergroei([Gonzalez-Ponce et al., 2024](bronnen/Fabiola_Gonzalez-ponce_2024.pdf)).
 
 Toch heeft dit onderzoek een paar beperking en zijn er een paar aanbevelingen. Er moet rekening worden gehouden met enkele beperkingen van dit onderzoek. Ten eerste is meer aantal samples nodig, waaronder ook samples van mannen met en zonder reuma, en ook meer leeftijd variatie in de reauma en controle groep, en personen met vroege reuma symptomen. Om te zien of sex ook andere andere pathways activeert. Ook voor meer biologische diepgang en communicatie tussen cellen kan meer verschillende celtypes worden gesequenced zoals type immuncellen en epitheel cellen.
 
-Een groot aantal pathways geeft beeld hoe reuma kan onstaan zoals de immunpathways en MHC binding pathways, maar specifieke chemokine is onbekend wat laat zien waar de immuncellen worden "gelokt".
+Een groot aantal pathways geeft beeld hoe reuma kan onstaan zoals de immunpathways en MHC binding pathways, maar specifieke chemokine/cytokine is onbekend wat laat zien waar de immuncellen worden "gelokt".
