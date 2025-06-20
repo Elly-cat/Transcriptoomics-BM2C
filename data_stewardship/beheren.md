@@ -1,4 +1,4 @@
-Data stewardship is nodig zodat experimenten betrouwbaar, reproduceer en transparant zijn. Door goed data te beheren kan verlies van data worden tegengehouden en samenwekring vermakkelijken en kwaliteit van onderzoek verbetert. Scripts van R, python en SPSS en belengrijk files moet in duidelijke mappen structuur worden behouden zodat gelijk overzicht word gegeven, waar alles is en voorkomt data data kwijt word geraakt of dubbel word opgeslagen. Een voorbeeld van een mappenstructuur kan worden opgeslagen in de OneDrive (zodat diegene alleen toegang heeft) zo:
+Data stewardship is nodig zodat experimenten betrouwbaar, reproduceer en transparant zijn. Door goed data te beheren kan verlies van data worden tegengehouden en samenwekring vermakkelijken en kwaliteit van onderzoek verbetert. Scripts van R, python en SPSS en belengrijk files moet in duidelijke mappen structuur worden behouden zodat gelijk overzicht word gegeven, waar alles is en voorkomt dat data kwijt word geraakt of dubbel word opgeslagen. Een voorbeeld van een mappenstructuur kan worden opgeslagen in de OneDrive (zodat diegene alleen toegang heeft) zo:
 
 /projectnaam
 
